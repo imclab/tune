@@ -5,3 +5,10 @@
 require File.expand_path('../config/application', __FILE__)
 
 Tune::Application.load_tasks
+
+task :deploy do
+  `bundle exec rake assets:precompile RAILS_ENV=development`
+  #`heroku mongo:sync`
+  `git add . ; git commit -a -m 'commit'`
+  `git push heroku master`
+end
