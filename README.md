@@ -12,6 +12,7 @@ gem install project
 
 - http://vexflow.com/vextab/tutorial.html
 - http://code.gregjopa.com/html5/audio/tabplayer/musicxml/Twinkle,%20Twinkle,%20Little%20Star.xml
+- http://stackoverflow.com/questions/3220073/guitar-tablature-data-format
 
 ## Inspiration
 

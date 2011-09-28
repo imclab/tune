@@ -5,9 +5,9 @@ class Song
   field :data, :type => ::String
   field :key
   
-  validates :key, :uniqueness => {:scope => :album_id}
+  belongs_to :artist
   
-  embedded_in :artist, :class_name => "Artist"
+  validates :key, :uniqueness => {:scope => :album_id}, :on => :create
   
   before_validation :set_key
   

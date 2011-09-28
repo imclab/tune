@@ -407,8 +407,8 @@ Vex.Flow.VexTab.validDurations = {
   "w": "w",
   "h": "h",
   "q": "q",
-  "8": "8",
   "8d": "8d",
+  "8": "8",
   "16": "16",
   "16d": "16d",
   "32": "32",
@@ -429,7 +429,6 @@ Vex.Flow.VexTab.prototype.parseDuration = function() {
   } else {
     this.parseError("Invalid duration: " + this.parse_state.value);
   }
-
   if (!this.parse_state.done) {
     this.getNextDurationToken();
     if (this.parse_state.value != ":")

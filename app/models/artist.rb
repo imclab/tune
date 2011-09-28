@@ -4,9 +4,9 @@ class Artist
   field :name
   field :key
   
-  embeds_many :songs
+  has_many :songs
   
-  validates :key, :uniqueness => true
+  validates :key, :uniqueness => true, :on => :create
   before_validation :set_key
   
   def set_key

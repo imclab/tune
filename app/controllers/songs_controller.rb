@@ -33,7 +33,9 @@ class SongsController < InheritedResources::Base#ApplicationController
   def update
     @song = parent.songs.where(:key => params[:id]).first
     #raise @song.inspect
-    #@song.artist = parent
-    update!
+    @song.artist = parent
+    @song.update_attributes(params[:song])
+    redirect_to song_path(@song.artist.to_param, @song.key)
+    return
   end
 end

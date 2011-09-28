@@ -1,6 +1,6 @@
 - title @song.title
 
-= form_for @song, :url => @song.id.present? ? artist_path(@artist) : song_path(@artist, @song)  do |form|
+= form_for @song, :url => @song.new_record? ? artist_path(@artist) : song_path(@artist, @song)  do |form|
   = form.fieldset do |fields|
     = fields.field :name
     = fields.field :data, :as => :text
