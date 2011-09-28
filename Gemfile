@@ -32,6 +32,7 @@ group :test do
   gem "rspec-rails"
   gem 'turn', :require => false
 end
+
 gem "guard", :group => :test
 gem "i18n", "0.6.0"
 gem "inherited_resources"
@@ -45,3 +46,8 @@ gem "html-schema", "0.5.0"
 gem "storefront", "0.5.2.2"
 gem "deli", "0.5.0"
 gem "stringex"
+
+group :production do
+  gem 'therubyracer-heroku'#, '0.8.1.pre3'
+  gem "pg", :require => "pg"
+end
