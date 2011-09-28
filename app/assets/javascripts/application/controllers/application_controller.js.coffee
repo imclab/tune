@@ -10,6 +10,7 @@ ApplicationController = Spine.Controller.create
     
   ready: ->
     @initErrorHelper()
+    @initPrintHelper()
 
 ApplicationController.extend
   Helpers: {}

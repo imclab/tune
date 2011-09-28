@@ -7,3 +7,6 @@
       = t.row do
         = t.cell do
           = link_to(artist.name, artist_path(artist.to_param))
+
+= widget :menu do
+  = nav "New", new_artist_path

@@ -17,7 +17,7 @@
     //background: #950001 url("/images/paper.jpg");
     background: hsl(40, 36%, 90%) url("/images/paper.jpg");
     //border: 2px solid hsl(359, 35%, 36%);
-    min-height: 400px;
+    //min-height: 400px;
   }
   h2 {
     font-family: $body-font;
@@ -25,5 +25,25 @@
     font-weight: bold;
     padding: 20px 0px 10px 0px;
     @include rich-border(hsl(211, 12%, 80%), $background-gradient-light);
+  }
+  .menu {
+    @include clearfix;
+    position: relative;
+    text-align: right;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    float: right;
+    li {
+      float: left;
+      display: block;
+      margin: 0px 0px 0px 20px;
+      list-style-type: none;
+      a {
+        //color: hsl(40, 36%, 90%);
+        //text-shadow: hsl(210, 3%, 10%) -1px -1px 0;
+        font-family: $title-font;
+        color: hsl(40, 36%, 90%);
+      }
+    }
   }
 }

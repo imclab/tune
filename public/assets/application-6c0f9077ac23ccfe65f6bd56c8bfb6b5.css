@@ -1,0 +1,1086 @@
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 11, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 15, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 19, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 24, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 31, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 37, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 46, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 52, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 59, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 63, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+/* line 68, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 73, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #626262;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 82, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/* line 86, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_reset.scss */
+meter {
+  background: none;
+}
+
+/* shadow: horizontal-offset vertical-offset blur-radius? spread-radius? color */
+/* http://placenamehere.com/article/384/css3boxshadowininternetexplorerblurshadow */
+/* http://dimox.net/cross-browser-css3-box-shadow/ */
+/* http://www.brunildo.org/test/img_center.html */
+/* line 2, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+code {
+  font-family: 'Bitstream Vera Sans Mono', Courier, monospace;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 0px;
+  line-height: 16px;
+  padding: 2px 5px;
+  background-color: #EFEDE8 !important;
+  border: 1px solid #D9D9D9;
+}
+
+/* line 16, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre {
+  background: transparent !important;
+  color: #444;
+  font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
+  margin: 0 !important;
+  border: none !important;
+  padding: 0px 0px 0px 0px;
+  /* Comment */
+  /* Error */
+  /* Keyword */
+  /* Operator */
+  /* Comment.Multiline */
+  /* Comment.Preproc */
+  /* Comment.Single */
+  /* Comment.Special */
+  /* Generic.Deleted */
+  /* Generic.Deleted.Specific */
+  /* Generic.Emph */
+  /* Generic.Error */
+  /* Generic.Heading */
+  /* Generic.Inserted */
+  /* Generic.Inserted.Specific */
+  /* Generic.Output */
+  /* Generic.Prompt */
+  /* Generic.Strong */
+  /* Generic.Subheading */
+  /* Generic.Traceback */
+  /* Keyword.Constant */
+  /* Keyword.Declaration */
+  /* Keyword.Pseudo */
+  /* Keyword.Reserved */
+  /* Keyword.Type */
+  /* Literal.Number */
+  /* Literal.String */
+  /* Name.Attribute */
+  /* Name.Builtin */
+  /* Name.Class */
+  /* Name.Constant */
+  /* Name.Entity */
+  /* Name.Exception */
+  /* Name.Function */
+  /* Name.Namespace */
+  /* Name.Tag */
+  /* Name.Variable */
+  /* Operator.Word */
+  /* Text.Whitespace */
+  /* Literal.Number.Float */
+  /* Literal.Number.Hex */
+  /* Literal.Number.Integer */
+  /* Literal.Number.Oct */
+  /* Literal.String.Backtick */
+  /* Literal.String.Char */
+  /* Literal.String.Doc */
+  /* Literal.String.Double */
+  /* Literal.String.Escape */
+  /* Literal.String.Heredoc */
+  /* Literal.String.Interpol */
+  /* Literal.String.Other */
+  /* Literal.String.Regex */
+  /* Literal.String.Single */
+  /* Literal.String.Symbol */
+  /* Name.Builtin.Pseudo */
+  /* Name.Variable.Class */
+  /* Name.Variable.Global */
+  /* Name.Variable.Instance */
+  /* Literal.Number.Integer.Long */
+}
+/* line 23, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .str {
+  color: #DD1144;
+}
+/* line 26, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .kwd {
+  color: #000000;
+}
+/* line 29, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .com {
+  color: #8e8e7e;
+}
+/* line 32, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .typ {
+  color: #458;
+}
+/* line 35, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .lit {
+  color: #099;
+}
+/* line 38, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .pun {
+  color: #626262;
+}
+/* line 41, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .pln {
+  color: #445588;
+}
+/* line 44, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .tag {
+  color: #0b9de1;
+}
+/* line 47, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .atn {
+  color: #121212;
+}
+/* line 50, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .atv {
+  color: #b41d00;
+}
+/* line 53, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .dec {
+  color: #f46f09;
+}
+/* line 58, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .ss {
+  color: #990073;
+}
+/* line 62, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .n {
+  color: black;
+}
+/* line 65, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .line-numbers {
+  background-color: #ECECEC;
+  border: 1px solid #aaa;
+  border-right: 1px solid #ddd;
+  height: 100%;
+}
+/* line 71, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .line-numbers span {
+  clear: right;
+  display: block;
+}
+/* line 75, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .highlight {
+  background-color: #49483e;
+}
+/* line 76, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .c {
+  color: #999988;
+  font-style: italic;
+}
+/* line 77, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+/* line 78, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .k {
+  color: #000000;
+  font-weight: bold;
+}
+/* line 79, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .o {
+  color: #000000;
+  font-weight: bold;
+}
+/* line 80, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .cm {
+  color: #999988;
+  font-style: italic;
+}
+/* line 81, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .cp {
+  color: #999999;
+  font-weight: bold;
+}
+/* line 82, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .c1 {
+  color: #999988;
+  font-style: italic;
+}
+/* line 83, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 84, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+/* line 85, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gd .x {
+  color: #000000;
+  background-color: #ffaaaa;
+}
+/* line 86, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .ge {
+  color: #000000;
+  font-style: italic;
+}
+/* line 87, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gr {
+  color: #aa0000;
+}
+/* line 88, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gh {
+  color: #999999;
+}
+/* line 89, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+/* line 90, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gi .x {
+  color: #000000;
+  background-color: #aaffaa;
+}
+/* line 91, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .go {
+  color: #888888;
+}
+/* line 92, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gp {
+  color: #555555;
+}
+/* line 93, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gs {
+  font-weight: bold;
+}
+/* line 94, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gu {
+  color: #aaaaaa;
+}
+/* line 95, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .gt {
+  color: #aa0000;
+}
+/* line 96, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .kc {
+  color: #000000;
+  font-weight: bold;
+}
+/* line 97, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .kd {
+  color: #000000;
+  font-weight: bold;
+}
+/* line 98, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .kp {
+  color: #000000;
+  font-weight: bold;
+}
+/* line 99, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .kr {
+  color: #000000;
+  font-weight: bold;
+}
+/* line 100, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .kt {
+  color: #445588;
+  font-weight: bold;
+}
+/* line 101, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .m {
+  color: #009999;
+}
+/* line 102, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .s {
+  color: #d14;
+}
+/* line 103, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .na {
+  color: #008080;
+}
+/* line 104, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .nb {
+  color: #0086B3;
+}
+/* line 105, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .nc {
+  color: #445588;
+  font-weight: bold;
+}
+/* line 106, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .no {
+  color: #008080;
+}
+/* line 107, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .ni {
+  color: #800080;
+}
+/* line 108, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .ne {
+  color: #990000;
+  font-weight: bold;
+}
+/* line 109, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .nf {
+  color: #990000;
+  font-weight: bold;
+}
+/* line 110, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .nn {
+  color: #555555;
+}
+/* line 111, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .nt {
+  color: #000080;
+}
+/* line 112, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .nv {
+  color: #008080;
+}
+/* line 113, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .ow {
+  color: #000000;
+  font-weight: bold;
+}
+/* line 114, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .w {
+  color: #bbbbbb;
+}
+/* line 115, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .mf {
+  color: #009999;
+}
+/* line 116, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .mh {
+  color: #009999;
+}
+/* line 117, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .mi {
+  color: #009999;
+}
+/* line 118, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .mo {
+  color: #009999;
+}
+/* line 119, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .sb {
+  color: #d14;
+}
+/* line 120, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .sc {
+  color: #d14;
+}
+/* line 121, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .sd {
+  color: #d14;
+}
+/* line 122, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .s2 {
+  color: #d14;
+}
+/* line 123, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .se {
+  color: #d14;
+}
+/* line 124, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .sh {
+  color: #d14;
+}
+/* line 125, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .si {
+  color: #d14;
+}
+/* line 126, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .sx {
+  color: #d14;
+}
+/* line 127, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .sr {
+  color: #009926;
+}
+/* line 128, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .s1 {
+  color: #d14;
+}
+/* line 129, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .ss {
+  color: #990073;
+}
+/* line 130, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .bp {
+  color: #999999;
+}
+/* line 131, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .vc {
+  color: #008080;
+}
+/* line 132, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .vg {
+  color: #008080;
+}
+/* line 133, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .vi {
+  color: #008080;
+}
+/* line 134, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+pre .il {
+  color: #009999;
+}
+
+/* line 137, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+.line-numbers {
+  color: #aaa;
+  border-right: 1px solid #ddd;
+  text-align: right;
+  line-height: 16px;
+  font-size: 12px;
+}
+/* line 144, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+.line-numbers span {
+  display: block;
+  cursor: pointer;
+}
+
+/* line 149, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+.highlight {
+  background-color: #f9f8f6 !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 3px !important;
+  padding: 8px;
+  white-space: pre;
+}
+
+/* line 158, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+.highlight pre {
+  white-space: pre;
+}
+
+/* line 161, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+.line {
+  clear: both;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  position: static;
+  height: 16px;
+  line-height: 16px;
+  padding: 0px 0px 0px 0px;
+}
+/* line 162, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+.line span {
+  line-height: 0;
+}
+/* line 174, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+.line.selected {
+  background: rgba(223, 64, 53, 0.3);
+}
+
+/* line 178, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+div.data {
+  overflow-x: auto;
+  margin-bottom: 21px;
+  border: 1px solid #D9D9D9 !important;
+}
+/* line 182, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+div.data .highlight {
+  position: relative;
+  margin-top: -10px !important;
+  border-left: none;
+}
+/* line 187, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+div.data .line-numbers {
+  position: relative;
+}
+/* line 190, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+div.data td:first-child {
+  background-color: #ececec !important;
+  width: 17px;
+  padding: 0px 8px;
+}
+/* line 196, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+div.data .line-numbers.visible {
+  padding: 8px;
+  min-width: 14px;
+  display: block;
+}
+
+/* line 203, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_code.scss */
+cite {
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roman';
+  src: url("/fonts/morris-roman.eot") format("eot"), url("/fonts/morris-roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 10, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+::selection {
+  background: default;
+  /* Safari */
+}
+
+/* line 13, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+::-moz-selection {
+  background: default;
+  /* Firefox */
+}
+
+/* line 17, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h1, h2, h3, h4 {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  font-family: "roman", Times New Roman, serif;
+}
+
+/* line 24, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h1 {
+  font-weight: bold;
+  letter-spacing: 1;
+  font-size: 72px;
+  text-shadow: #4a4d4f 0 1px 0;
+  color: #161718;
+}
+
+/* line 32, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h2 {
+  font-family: "roman", Times New Roman, serif;
+  font-size: 24px;
+}
+/* line 35, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h2 code {
+  text-transform: none;
+  font-size: 28px;
+}
+
+/* line 41, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h3 {
+  font-family: "roman", Times New Roman, serif;
+  font-size: 24px;
+}
+/* line 44, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h3 code {
+  text-transform: none;
+  font-size: 21px;
+}
+
+/* line 50, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h4 {
+  font-family: "roman", Times New Roman, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+h4 code {
+  font-size: 16px;
+  text-transform: none;
+}
+
+/* line 61, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+p, li {
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  font-family: Times New Roman, Lucida Grande, Verdana, sans-serif;
+  text-transform: none;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 0 0 13px 0;
+  font-size: 14px;
+}
+
+/* line 73, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+p {
+  margin-bottom: 13px;
+}
+
+/* line 77, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+a {
+  position: relative;
+  color: #161718;
+  text-decoration: none;
+}
+
+/*
+a img {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;  
+  transition: all 0.1s linear;
+}
+*/
+/* line 92, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_typography.scss */
+img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_base.scss */
+html, body {
+  width: 100%;
+  min-height: 100%;
+  color: #161718;
+  background: #323232 url("/images/body.jpg");
+  font-family: "roman", Times New Roman, serif;
+  font-size: 0.8em;
+  line-height: 0.75;
+  text-align: center;
+}
+
+/* line 18, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_base.scss */
+.frame {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_mixins.scss */
+.frame:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_lists.scss */
+ul, ol {
+  line-height: 1.2em;
+  font-family: Times New Roman, Lucida Grande, Verdana, sans-serif;
+  margin: 13px 0px 13px 26px;
+}
+/* line 5, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_lists.scss */
+ul li, ol li {
+  font-family: Times New Roman, Lucida Grande, Verdana, sans-serif;
+  margin: 6px 0px;
+}
+/* line 9, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_lists.scss */
+ul ul, ul ol, ol ul, ol ol {
+  margin-bottom: 0px;
+}
+
+/* line 13, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_lists.scss */
+ul {
+  list-style-type: disc;
+}
+/* line 15, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_lists.scss */
+ul ul {
+  list-style-type: circle;
+}
+
+/* line 19, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_lists.scss */
+ol {
+  list-style-type: upper-roman;
+}
+/* line 21, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_lists.scss */
+ol ul {
+  list-style-type: circle;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_tables.scss */
+table {
+  width: 920px;
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-collapse: separate;
+}
+/* line 9, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_tables.scss */
+table th.name {
+  width: 190px;
+}
+/* line 12, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_tables.scss */
+table th.key {
+  width: 260px;
+}
+/* line 15, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_tables.scss */
+table th, table td {
+  padding: 6px 10px;
+  height: 34px;
+  color: #666666;
+  font-size: 16px;
+}
+/* line 20, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_tables.scss */
+table th.first, table td.first {
+  padding-left: 30px;
+}
+/* line 23, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_tables.scss */
+table th.last, table td.last {
+  padding-right: 10px;
+}
+/* line 26, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_tables.scss */
+table th a, table td a {
+  font-size: 24px;
+  color: #efe9dc;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form {
+  position: relative;
+}
+/* line 3, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .legend {
+  width: 960px;
+  padding: 10px 0px 26px 0px;
+  font-size: 24px;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* line 11, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .legend span {
+  display: inline-block;
+}
+/* line 17, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .fieldset {
+  margin-bottom: 20px;
+  width: 960px;
+  position: relative;
+}
+/* line 22, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .field-list, form .value-list {
+  position: relative;
+  width: 960px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_mixins.scss */
+form .field-list:after, form .value-list:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 31, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .value, form .values {
+  list-style-type: none;
+}
+/* line 34, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .value {
+  margin-left: 190px;
+  padding: 0px 10px;
+}
+/* line 37, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .value span {
+  display: inline-block;
+  width: 280px;
+}
+/* line 42, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .field {
+  position: relative;
+  list-style-type: none;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_mixins.scss */
+form .field:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 47, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .field .label {
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+  float: left;
+  padding: 6px 0px;
+  width: 100px;
+  font-size: 18px;
+  font-family: "roman", Times New Roman, serif;
+  color: #efe9dc;
+}
+/* line 59, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .field .input {
+  float: left;
+  width: 780px;
+  margin: 0px 0px 0px 0px;
+  background: #efe9dc;
+  background: #efe9dc url("/images/paper.jpg");
+  border: 1px solid #666666;
+  font-size: 14px;
+  padding: 6px 9px;
+}
+/* line 70, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .field .text {
+  height: 400px;
+  resize: none;
+  white-space: pre;
+}
+/* line 75, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_forms.scss */
+form .field .submit {
+  margin-left: 110px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "roman", Times New Roman, serif;
+  color: #efe9dc;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#header {
+  clear: both;
+  position: relative;
+  margin-top: 80px;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_mixins.scss */
+#header:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 6, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#header .frame {
+  border-left: none;
+  border-right: none;
+}
+/* line 10, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#header #subtitle {
+  font-size: 36px;
+}
+
+/* line 15, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#navigation {
+  position: relative;
+}
+/* line 17, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#navigation .forkme {
+  position: absolute;
+}
+/* line 20, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#navigation ul {
+  position: relative;
+  text-align: right;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  float: right;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_mixins.scss */
+#navigation ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 27, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#navigation ul li {
+  float: left;
+  display: block;
+  margin: 8px 0px 6px 20px;
+  list-style-type: none;
+}
+/* line 32, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_header.scss */
+#navigation ul li a {
+  font-family: "roman", Times New Roman, serif;
+  font-size: 20px;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_body.scss */
+#body {
+  width: 100%;
+  text-align: left;
+  margin-top: 40px;
+  min-height: 400px;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_mixins.scss */
+#body:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 7, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_body.scss */
+#body .frame {
+  background: url("/images/frame-2.jpg");
+  padding: 20px;
+  width: 920px;
+}
+/* line 14, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_body.scss */
+#body #content {
+  width: 920px;
+  background: #efe9dc url("/images/paper.jpg");
+}
+/* line 22, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_body.scss */
+#body h2 {
+  font-family: Times New Roman, Lucida Grande, Verdana, sans-serif;
+  color: #434c56;
+  font-weight: bold;
+  padding: 20px 0px 10px 0px;
+  border-top: 1px solid #f8f8f8;
+  -moz-box-shadow: 0px -1px 0px #c6ccd2;
+  -webkit-box-shadow: 0px -1px 0px #c6ccd2;
+  box-shadow: 0px -1px 0px #c6ccd2;
+  /* behavior: url(/stylesheets/ie-css3.htc); */
+}
+/* line 29, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_body.scss */
+#body .menu {
+  position: relative;
+  text-align: right;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  float: right;
+}
+/* line 55, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/shared/_mixins.scss */
+#body .menu:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 36, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_body.scss */
+#body .menu li {
+  float: left;
+  display: block;
+  margin: 0px 0px 0px 20px;
+  list-style-type: none;
+}
+/* line 41, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_body.scss */
+#body .menu li a {
+  font-family: "roman", Times New Roman, serif;
+  color: #efe9dc;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  margin-top: 40px;
+}
+/* line 5, /Users/viatropos/Documents/git/personal/apps/tune/app/assets/stylesheets/application/_footer.scss */
+#footer .frame {
+  height: 40px;
+  border-left: none;
+  border-right: none;
+}
+
+/* line 1, /Users/viatropos/Documents/git/personal/apps/tune/vendor/assets/stylesheets/tabdiv.css.scss */
+div.vex-tabdiv {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+  white-space: pre;
+}
+
+/* line 14, /Users/viatropos/Documents/git/personal/apps/tune/vendor/assets/stylesheets/tabdiv.css.scss */
+div.vex-tabdiv .editor {
+  border: 10px solid #afa;
+  font-family: Courier;
+  font-size: 14px;
+}
+
+/* line 20, /Users/viatropos/Documents/git/personal/apps/tune/vendor/assets/stylesheets/tabdiv.css.scss */
+div.vex-tabdiv .editor-error .text {
+  background: #faa;
+  border: 5px solid #f88;
+  font-family: Courier;
+  font-size: 14px;
+  padding: 3px;
+}
+
+/* line 28, /Users/viatropos/Documents/git/personal/apps/tune/vendor/assets/stylesheets/tabdiv.css.scss */
+div.vex-tabdiv .title {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color: #554;
+}

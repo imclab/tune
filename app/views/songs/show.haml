@@ -4,3 +4,6 @@
   .vex-tabdiv{:width => 920, :scale => 1.0}
     -##{:width => 960, :scale => 1.0}
     #{@song.data}
+= widget :menu do
+  = nav "Εdit", edit_song_path(@song.artist.to_param, @song.to_param)
+  = nav :print, "#", :class => "print", :target => "_blank"

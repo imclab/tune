@@ -1,0 +1,4 @@
+= form_for @artist, :url => @artist.id.present? ? artist_path(@artist) : root_path do |form|
+  = form.fieldset do |fields|
+    = fields.field :name
+  = form.submit
