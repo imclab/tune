@@ -1,0 +1,40 @@
+#header {
+  @include clearfix;
+  clear: both;
+  position: relative;
+  margin-top: 80px;
+  .frame {
+    border-left: none;
+    border-right: none;
+  }
+  #subtitle {
+    font-size: 36px;
+  }
+}
+
+#navigation {
+  position: relative;
+  .forkme {
+    position: absolute;
+  }
+  ul {
+    @include clearfix;
+    position: relative;
+    text-align: right;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    float: right;
+    li {
+      float: left;
+      display: block;
+      margin: 8px 0px 6px 20px;
+      list-style-type: none;
+      a {
+        //color: hsl(40, 36%, 90%);
+        //text-shadow: hsl(210, 3%, 10%) -1px -1px 0;
+        font-family: $title-font;
+        font-size: 20px;
+      }
+    }
+  }
+}

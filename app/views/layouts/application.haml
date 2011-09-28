@@ -1,0 +1,31 @@
+!!! 5
+%html
+  %head
+    = render :partial => "shared/meta"
+  %body{:role => :application}
+    - if browser_is?("ie")
+      = javascript_include_tag "vendor/plugins/jquery.innerShiv"
+    - if content_for? :templates
+      = yield :templates
+    %nav#navigation{:role => :navigation}
+      .frame
+        = render :partial => "shared/navigation"
+    %header#header{:role => :banner}
+      .frame
+        - if flash?
+          = render_flash
+        = render :partial => "shared/header"
+    %section#body{:role => :main}
+      .frame
+        = yield
+        %aside#sidebar{:role => :complementary}
+          - if content_for?(:sidebar)
+            = yield :sidebar
+    %footer#footer{:role => :contentinfo}
+      .frame
+        = render :partial => "shared/footer"
+  - if content_for? :popups
+    %aside#popups
+      = yield :popups
+  - if content_for? :body_javascripts
+    = yield :body_javascripts

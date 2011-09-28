@@ -1,0 +1,28 @@
+= content_type_tag
+= title_tag [t(:title), t(:subtitle)].compact.select(&:present?).join(" - "), :separator => "|"
+= meta_tag :keywords, t(:keywords)
+= meta_tag :description, t(:description)
+= meta_tag :robots, t(:robots)
+= meta_tag :author, t(:author)
+
+= stylesheet_link_tag "application"
+= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Josefin+Slab:300"
+
+-# if browser_is?("firefox")
+  = stylesheet_link_tag "font"
+
+- if content_for?(:head_stylesheets)
+  = yield :head_stylesheets
+
+-#= javascript_include_tag 'fout'
+= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'
+= javascript_include_tag "http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"
+= javascript_include_tag "base"
+= javascript_include_tag "vendor"
+= javascript_include_tag "lib"
+= javascript_include_tag "controllers"
+= javascript_include_tag "helpers"
+= javascript_include_tag "application"
+
+- if content_for?(:head_javascripts)
+  = yield :head_javascripts

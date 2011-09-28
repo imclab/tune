@@ -1,0 +1,26 @@
+// colors
+$background-gradient-dark: #e5e7eb;
+$background-gradient-light: #f8f8f8;
+// color: hsl(211, 12%, 50%);
+//$text-color: hsl(210, 3%, 16%);//hsl(210, 3%, 15%);
+$text-color: hsl(40, 36%, 90%);
+$text-shadow-color: hsl(210, 3%, 30%);
+$text-color: hsl(210, 3%, 9%); // dark
+$label-text-color: #fee9ba;
+$text-selection-color: default;
+
+//$border-color: hsl(60, 80%, 40%);
+$border-color: hsl(210, 3%, 25%);
+
+// sizes
+$frame-width: 960px;
+$gutter: 20px;
+
+// fonts
+$h1-size: 32px;
+$h2-size: 30px;
+$title-font: 'roman', Times New Roman, serif;
+$subtitle-font: $title-font;
+$body-font: Times New Roman, Lucida Grande, Verdana, sans-serif;
+$body-font-size: 14px;
+$paragraph-gutter: 13px;

@@ -1,0 +1,1 @@
+//= require "./application/helpers/error_helper"

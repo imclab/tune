@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'roman';
+    src: url('/fonts/morris-roman.eot') format('eot'),
+         url('/fonts/morris-roman.ttf') format('truetype');//,
+         //url('/fonts/morris-roman.svg#webfontFHzvtkso') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::selection {
+	background: $text-selection-color; /* Safari */
+}
+::-moz-selection {
+	background: $text-selection-color; /* Firefox */
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal; 
+  font-style: normal;
+  line-height: 1; //0.75;
+  font-family: $title-font;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: 1;
+  font-size: 72px;
+  text-shadow: $text-shadow-color 0 1px 0;
+  color: $text-color;
+}
+
+h2 {
+  font-family: $subtitle-font;
+  font-size: 24px;
+  code {
+    text-transform: none;
+    font-size: 28px;
+  }
+}
+
+h3 {
+  font-family: $subtitle-font;
+  font-size: 24px;
+  code {
+    text-transform: none;
+    font-size: 21px;
+  }
+}
+
+h4 {
+  font-family: $subtitle-font;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  code {
+    font-size: 16px;
+    text-transform: none;
+  }
+}
+
+p, li {
+  font-weight: normal; 
+  font-style: normal;
+  line-height:normal; 
+  font-family: $body-font;
+  text-transform: none;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 0 0 13px 0;
+  font-size: $body-font-size;
+}
+
+p {
+  margin-bottom: $paragraph-gutter;
+}
+
+a {
+  position: relative;
+  color: $text-color;
+  text-decoration: none;
+}
+
+/*
+a img {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;  
+  transition: all 0.1s linear;
+}
+*/
+
+img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}

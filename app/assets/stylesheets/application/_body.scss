@@ -1,0 +1,27 @@
+#body {
+  width: 100%;
+  @include clearfix;
+  text-align: left;
+  margin-top: 40px;
+  .frame {
+    min-height: 400px;
+    background: hsl(359, 35%, 39%) url("/images/frame-2.jpg");
+    //border: 2px solid hsl(359, 35%, 36%);
+    padding: 20px;
+    width: 920px;
+  }
+  #content {
+    width: 920px;
+    //background: #9e815c url("/images/paper.jpg");
+    background: #950001 url("/images/paper.jpg");
+    //border: 2px solid hsl(359, 35%, 36%);
+    min-height: 400px;
+  }
+  h2 {
+    font-family: $body-font;
+    color: hsl(211, 12%, 30%);
+    font-weight: bold;
+    padding: 20px 0px 10px 0px;
+    @include rich-border(hsl(211, 12%, 80%), $background-gradient-light);
+  }
+}

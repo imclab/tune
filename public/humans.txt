@@ -1,0 +1,18 @@
+/* TEAM */
+
+Jacob Fleming
+Graphic and Motion Artist
+
+Russell Klusas
+Interface Architect
+
+Lance Pollard
+Application Architect
+
+/* CREDITS */
+
+jQuery
+John Resig
+
+Ruby on Rails
+David Hansen

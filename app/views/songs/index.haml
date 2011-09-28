@@ -1,0 +1,8 @@
+= table_for :songs do |t|
+  = t.head do
+    = t.row do
+      = t.header "Name"
+  = t.body do
+    - @songs.each do |song|
+      = t.row do
+        = t.cell song.name
