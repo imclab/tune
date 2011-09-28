@@ -128,7 +128,6 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (!= 1.3.0, ~> 1.1)
-    sqlite3 (1.3.4)
     storefront (0.5.2.2)
     stringex (1.3.0)
     therubyracer-heroku (0.8.1.pre3)
@@ -165,7 +164,6 @@ DEPENDENCIES
   rdiscount
   rspec-rails
   sass-rails (~> 3.1.0)
-  sqlite3
   storefront (= 0.5.2.2)
   stringex
   therubyracer-heroku

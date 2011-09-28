@@ -1,3 +1,31 @@
 table {
-  width: 100%;
+  width: 920px;
+  position: relative;
+  font-size: 14px;
+  //margin-left: 110px;
+  //border: 1px solid $white-2;
+  margin-bottom: 10px;
+  border-collapse: separate;
+  th.name {
+    width: 190px;
+  }
+  th.key {
+    width: 260px;
+  }
+  th, td {
+    padding: 6px 10px;
+    height: 34px;
+    &.first {
+      padding-left: 30px;
+    }
+    &.last {
+      padding-right: 10px;
+    }
+  }
+  td.name, td.key {
+    border-right: 1px solid $white-5;
+  }
+  th, .even {
+    background: hsl(0, 0%, 96%);
+  }
 }
