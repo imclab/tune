@@ -26,10 +26,6 @@ module Tune
       require lib if File.extname(lib) == '.rb'
     end
     
-    config.assets.enabled = true
-    
-    config.assets.precompile = ["application.js", "helpers.js", "vendor.js", "lib.js", "controllers.js", "base.js", "application.css"]
-    
     config.before_initialize do
       require 'mongoid'
       Deli.configuration.default_adapter = :mongoid
@@ -74,5 +70,15 @@ module Tune
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    config.assets.enabled = true
+    config.assets.js_compressor  = :uglifier
+    config.assets.css_compressor = :scss
+    
+    # Version of your assets, change this if you want to expire all your assets
+    config.assets.version = '1.0'
+    
+    config.assets.precompile = ["application.js", "helpers.js", "vendor.js", "lib.js", "controllers.js", "base.js", "application.css"]
+    
   end
 end

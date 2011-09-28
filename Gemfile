@@ -48,3 +48,8 @@ gem "html-schema", "0.5.0"
 gem "storefront", "0.5.2.2"
 gem "deli", "0.5.0"
 gem "stringex"
+
+gem 'sass-rails', "  ~> 3.1.0"
+gem 'coffee-rails', "~> 3.1.0"
+gem 'uglifier'
+gem 'yui-compressor'
