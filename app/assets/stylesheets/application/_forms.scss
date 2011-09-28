@@ -72,6 +72,15 @@ form {
       resize: none;
       white-space: pre;
     }
+    .submit {
+      margin-left: 110px;
+      background: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      font-family: $title-font;
+      color: hsl(40, 36%, 90%);
+    }
   }
 
 }
