@@ -16,10 +16,12 @@ Tune::Application.configure do
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = false
-
+  
   # Generate digests for assets URLs
   config.assets.digest = true
-
+  config.assets.js_compressor  = :uglifier
+  config.assets.css_compressor = :scss
+  
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 
@@ -57,4 +59,5 @@ Tune::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+  config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 end
