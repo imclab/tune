@@ -12,4 +12,10 @@ class ArtistsController < InheritedResources::Base#ApplicationController
   def show
     @artist = Artist.where(:key => params[:id]).first
   end
+  
+  def create
+    create! do |format| 
+      format.html { redirect_to new_song_path(resource) }
+    end
+  end
 end

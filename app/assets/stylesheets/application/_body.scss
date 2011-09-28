@@ -14,7 +14,8 @@
   #content {
     width: 920px;
     //background: #9e815c url("/images/paper.jpg");
-    background: #950001 url("/images/paper.jpg");
+    //background: #950001 url("/images/paper.jpg");
+    background: hsl(40, 36%, 90%) url("/images/paper.jpg");
     //border: 2px solid hsl(359, 35%, 36%);
     min-height: 400px;
   }

@@ -1,6 +1,7 @@
 class Song
   include Mongoid::Document
   
+  field :name
   field :data, :type => ::String
   field :key
   
@@ -17,7 +18,7 @@ class Song
   end
   
   def title
-    artist.present? ? "#{artist.name}<br/>#{name}" : name
+    artist.present? ? [artist.name, name].select(&:present?).join("<br/>") : name
   end
   
   class << self
