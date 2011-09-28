@@ -6,8 +6,8 @@ class Artist
   
   embeds_many :songs
   
+  validates :key, :uniqueness => true
   before_validation :set_key
-  validates :key, :uniqueness
   
   def set_key
     self.key ||= name.to_url
