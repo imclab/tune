@@ -17,7 +17,7 @@ class Song
   end
   
   def title
-    artist.present? ? "#{artist.name} - #{name}" : name
+    artist.present? ? "#{artist.name}<br/>#{name}" : name
   end
   
   class << self

@@ -1,8 +1,9 @@
 = table_for :artists do |t|
-  = t.head do
+  -#= t.head do
     = t.row do
       = t.header "Name"
   = t.body do
     - @artists.each do |artist|
       = t.row do
-        = t.cell artist.name
+        = t.cell do
+          = link_to(artist.name, artist_path(artist.to_param))

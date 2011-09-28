@@ -6,7 +6,7 @@ class ArtistsController < InheritedResources::Base#ApplicationController
   def index
     @artists = Artist
     @artists = @artists.where(deli) if deli.present?
-    #@artists = Artist.all
+    @artists = @artists.all
   end
   
   def show

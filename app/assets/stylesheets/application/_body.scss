@@ -3,8 +3,9 @@
   @include clearfix;
   text-align: left;
   margin-top: 40px;
+  min-height: 400px;
   .frame {
-    min-height: 400px;
+    //min-height: 100px;
     background: hsl(359, 35%, 39%) url("/images/frame-2.jpg");
     //border: 2px solid hsl(359, 35%, 36%);
     padding: 20px;

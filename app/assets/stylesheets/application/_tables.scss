@@ -15,17 +15,23 @@ table {
   th, td {
     padding: 6px 10px;
     height: 34px;
+    color: hsl(40, 0%, 40%);
+    font-size: 16px;
     &.first {
       padding-left: 30px;
     }
     &.last {
       padding-right: 10px;
     }
+    a {
+      font-size: 24px;
+      color: hsl(40, 36%, 90%);
+    }
   }
   td.name, td.key {
-    border-right: 1px solid $white-5;
+    
   }
   th, .even {
-    background: hsl(0, 0%, 96%);
+    //background: hsl(0, 0%, 96%);
   }
 }
