@@ -25,8 +25,8 @@ class SongsController < InheritedResources::Base#ApplicationController
   def create
     @song = Song.new(params[:song])
     @song.artist = parent
-    create! do |format| 
-      format.html { redirect_to song_path(@song.artist, @song.key) }
+    create! do |success, failure| 
+      success.html { redirect_to song_path(@song.artist, @song.key) }
     end 
   end
   

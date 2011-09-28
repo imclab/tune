@@ -5,9 +5,11 @@ class Song
   field :data, :type => ::String
   field :key
   
+  validates :key, :uniqueness => {:scope => :album_id}
+  
   embedded_in :artist, :class_name => "Artist"
   
-  before_save :set_key
+  before_validation :set_key
   
   def set_key
     self.key ||= name.to_url
