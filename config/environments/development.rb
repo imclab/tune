@@ -25,8 +25,8 @@ Tune::Application.configure do
   config.assets.compress = false
   config.assets.debug = true
   # production
-  config.assets.compress = true
-  config.assets.debug = false
-  config.assets.compile = true
-  config.assets.digest = true
+  # config.assets.compress = true
+  # config.assets.debug = false
+  # config.assets.compile = true
+  # config.assets.digest = true
 end

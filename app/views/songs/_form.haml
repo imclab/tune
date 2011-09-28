@@ -1,4 +1,4 @@
-= form_for @song, :url => params[:action] == "new" ? artist_songs_path(@artist) : artist_song_path(@artist, @song)  do |form|
+= form_for @song, :url => params[:action] == "new" ? songs_path(@artist) : song_path(@artist, @song)  do |form|
   = form.fieldset do |fields|
     = fields.field :name
     = fields.field :data, :as => :text
